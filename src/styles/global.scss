@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+p {
+    color: black;
+    font-family: "Poppins Regular", sans-serif;
+    font-size: 12px;
+}
+
+body::-webkit-scrollbar{
+    -webkit-appearance: none;        
+}
+
+//.MainContent_wrap::-webkit-scrollbar-thumb, 
+//.MainContent_wrap::-webkit-scrollbar-track,
+body::-webkit-scrollbar-thumb {
+     border-radius: 8px;
+     background-color: rgba(0, 0, 0, 0.5);
+     border: 5px solid white;
+    }
+
+body::-webkit-scrollbar-track {
+     background-color: white;
+    }
+
